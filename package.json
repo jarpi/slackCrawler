@@ -1,0 +1,19 @@
+{
+  "name": "slackcrawler",
+  "version": "1.0.0",
+  "description": "A crawler for Slack API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slack",
+    "crawler",
+    "data"
+  ],
+  "author": "jarpi",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@slack/client": "^3.12.0"
+  }
+}
