@@ -51,4 +51,3 @@ getCollectors(collectorsDir)
 .catch((err) => {
 	console.dir(err)
 })
-
