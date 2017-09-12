@@ -14,6 +14,7 @@
   "author": "jarpi",
   "license": "UNLICENSED",
   "dependencies": {
-    "@slack/client": "^3.12.0"
+    "@slack/client": "^3.12.0",
+    "moment": "^2.18.1"
   }
 }
