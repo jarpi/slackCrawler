@@ -4,6 +4,8 @@
   "description": "A crawler for Slack API",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+	"lint": "node_modules/standard/bin/cmd.js --fix index.js lib/**/*",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -17,6 +19,7 @@
     "@slack/client": "^3.12.0",
     "lodash": "^4.17.4",
     "moment": "^2.18.1",
-    "node-cron": "^1.2.1"
+    "node-cron": "^1.2.1",
+    "standard": "^10.0.3"
   }
 }
